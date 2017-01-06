@@ -1,0 +1,114 @@
+
+/*
+    import css styles
+*/
+@import url(css.ui.min.css);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+/*
+    custom styles
+*/
+body {
+    background-color: #f4f4f4;
+         font-family: Segoe UI, sans-serif;
+}
+
+/*
+    responsive menu style
+*/
+.nav .click {
+     cursor: pointer;
+     height: 36px;
+     margin: 10px;
+      float: right;
+      color: #5b5b5b;
+      width: 36px;
+}
+
+.nav .click .material-icons {
+    padding: 5px;
+}
+
+.nav .click .material-icons:hover {
+    border-radius: 30px;
+       background: white;
+}
+
+.nav .responsive { display: none; }
+.nav .expand { display: block !important; }
+
+.sidebar-title {
+    background-color: #353637;
+           font-size: 1.5em;
+	     padding: 20px;
+	       color: white;
+}
+
+/*
+    menu
+*/
+ul.menu {
+    background-color: white;
+         font-weight: 500;
+          list-style: none;
+	      margin: 0;
+}
+
+ul.menu li {
+    color: #353637;
+}
+
+ul.menu li.title {
+    padding: 6px 15px 6px 25px;
+}
+
+ul.menu li.title.first {
+    padding-top: 25px;
+}
+
+ul.menu li .material-icons.menu-icon {
+    margin-right: 10px;
+     font-weight: 700;
+       font-size: 12px;
+}
+
+ul.menu li {
+    margin: 0;
+}
+
+ul.menu li a {
+    text-decoration: none;
+       padding-left: 25px;
+        line-height: 42px;
+            display: block;
+	      color: #858585;
+}
+
+ul.menu li a:hover {
+    background-color: #e4e4e4;
+               color: #353637;
+}
+
+ul.menu li a.current {
+    background-color: #f4f4f4;
+               color: #2b69c6;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .nav .click { visibility: hidden; }
+    .nav .responsive { display: block; }
+
+    .sidebar {
+	background-color: white;
+	        position: absolute;
+		  bottom: 0;
+                   width: 230px;
+                     top: 0;
+    }
+
+    .content {
+	margin-left: 230px;
+    }
+
+}
