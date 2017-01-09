@@ -19,9 +19,9 @@ body {
 .nav .click {
      cursor: pointer;
      height: 36px;
-     margin: 10px;
+     margin: 20px 10px 10px;
       float: right;
-      color: #5b5b5b;
+      color: white;
       width: 36px;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .nav .click .material-icons:hover {
     border-radius: 30px;
-       background: white;
+       background: #202021;
 }
 
 .nav .responsive { display: none; }
