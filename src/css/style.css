@@ -3,7 +3,7 @@
     import css styles
 */
 @import url(css.ui.min.css);
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*
     custom styles
@@ -18,18 +18,17 @@ body {
 */
 .nav .click {
      cursor: pointer;
-     height: 36px;
-     margin: 20px 10px 10px;
+     margin: 25px 10px 10px;
       float: right;
       color: white;
-      width: 36px;
 }
 
-.nav .click .material-icons {
-    padding: 5px;
+.nav .click .bars {
+    font-size: 14px;
+      padding: 5px 6px;
 }
 
-.nav .click .material-icons:hover {
+.nav .click .bars:hover {
     border-radius: 30px;
        background: #202021;
 }
@@ -40,7 +39,8 @@ body {
 .sidebar-title {
     background-color: #353637;
            font-size: 1.5em;
-	     padding: 20px;
+	     padding: 15px 20px 0 25px;
+	      height: 69px;
 	       color: white;
 }
 
@@ -49,37 +49,34 @@ body {
 */
 ul.menu {
     background-color: white;
-         font-weight: 500;
           list-style: none;
 	      margin: 0;
 }
 
 ul.menu li {
-    color: #353637;
+    line-height: 38px;
+         margin: 0;
+	  color: #353637;
 }
 
 ul.menu li.title {
-    padding: 6px 15px 6px 25px;
+    padding: 0 15px 0 25px;
 }
 
 ul.menu li.title.first {
     padding-top: 25px;
 }
 
-ul.menu li .material-icons.menu-icon {
+ul.menu li .menu-icon {
     margin-right: 10px;
-     font-weight: 700;
        font-size: 12px;
-}
-
-ul.menu li {
-    margin: 0;
+        position: relative;
+	top: -2px;
 }
 
 ul.menu li a {
     text-decoration: none;
        padding-left: 25px;
-        line-height: 42px;
             display: block;
 	      color: #858585;
 }
