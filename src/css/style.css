@@ -13,6 +13,10 @@ body {
          font-family: Segoe UI, sans-serif;
 }
 
+.test {
+    border: 1px solid red;
+}
+
 /*
     responsive menu style
 */
@@ -23,12 +27,12 @@ body {
       color: white;
 }
 
-.nav .click .bars {
+.nav .click .menu {
     font-size: 14px;
       padding: 5px 6px;
 }
 
-.nav .click .bars:hover {
+.nav .click .menu:hover {
     border-radius: 30px;
        background: #202021;
 }
@@ -36,7 +40,11 @@ body {
 .nav .responsive { display: none; }
 .nav .expand { display: block !important; }
 
-.sidebar-title {
+
+/*
+    sidebar
+*/
+.sidebar .title {
     background-color: #353637;
            font-size: 1.375em;
 	     padding: 17px 20px 0 25px;
@@ -44,50 +52,57 @@ body {
 	       color: white;
 }
 
-/*
-    menu
-*/
-ul.menu {
+.sidebar ul.menu {
     background-color: white;
           list-style: none;
-	      margin: 0;
+              margin: 0;
 }
 
-ul.menu li {
+.sidebar ul.menu ul {
+    list-style: none;
+        margin: 0;
+}
+
+.sidebar ul.menu li {
     line-height: 38px;
          margin: 0;
 	  color: #353637;
 }
 
-ul.menu li.title {
-    padding: 0 15px 0 25px;
+.sidebar ul.menu li ul li {
+    font-size: 1.125em;
 }
 
-ul.menu li.title.first {
+.sidebar ul.menu li span span {
+    padding: 0 15px 0 25px;
+    display: block;
+}
+
+.sidebar ul.menu li.top {
     padding-top: 15px;
 }
 
-ul.menu li .menu-icon {
+.sidebar ul.menu li .icon {
     margin-right: 10px;
        font-size: 12px;
         position: relative;
-	top: -2px;
+	     top: -2px;
 }
 
-ul.menu li a {
+.sidebar ul.menu li a {
     text-decoration: none;
        padding-left: 25px;
             display: block;
 	      color: #858585;
 }
 
-ul.menu li a:hover {
-    background-color: #f4f4f4;
+.sidebar ul.menu li a:hover {
+    background-color: #ececec;
                color: #353637;
 }
 
-ul.menu li a.current {
-               color: #2b69c6;
+.sidebar ul.menu li a.current {
+    color: #2b69c6;
 }
 
 @media only screen and (min-width: 768px) {
