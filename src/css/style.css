@@ -64,7 +64,7 @@ ul.menu li.title {
 }
 
 ul.menu li.title.first {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 ul.menu li .menu-icon {
@@ -82,12 +82,11 @@ ul.menu li a {
 }
 
 ul.menu li a:hover {
-    background-color: #e4e4e4;
+    background-color: #f4f4f4;
                color: #353637;
 }
 
 ul.menu li a.current {
-    background-color: #f4f4f4;
                color: #2b69c6;
 }
 
