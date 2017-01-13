@@ -92,6 +92,7 @@ body {
 .sidebar ul.menu li a {
     text-decoration: none;
        padding-left: 25px;
+         transition: all 0.2s ease;
             display: block;
 	      color: #858585;
 }
