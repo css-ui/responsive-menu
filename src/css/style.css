@@ -28,8 +28,9 @@ body {
 }
 
 .nav .click .menu {
-    font-size: 14px;
-      padding: 8px 9px;
+    transition: all 0.2s ease;
+     font-size: 14px;
+       padding: 8px 9px;
 }
 
 .nav .click .menu:hover {
