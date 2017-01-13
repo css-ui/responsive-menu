@@ -13,10 +13,6 @@ body {
          font-family: Segoe UI, sans-serif;
 }
 
-.test {
-    border: 1px solid red;
-}
-
 /*
     responsive menu style
 */
@@ -28,14 +24,14 @@ body {
 }
 
 .nav .click .menu {
-    transition: all 0.2s ease;
-     font-size: 14px;
-       padding: 8px 9px;
+    border-radius: 30px;
+       transition: all 0.2s ease;
+        font-size: 14px;
+          padding: 8px 9px;
 }
 
 .nav .click .menu:hover {
-    border-radius: 30px;
-       background: #202021;
+    background-color: #202021;
 }
 
 .nav .responsive { display: none; }
