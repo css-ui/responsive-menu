@@ -25,7 +25,6 @@ body {
 
 .nav .click .menu {
     border-radius: 30px;
-       transition: all 0.2s ease;
         font-size: 14px;
           padding: 8px 9px;
 }
@@ -88,7 +87,6 @@ body {
 .sidebar ul.menu li a {
     text-decoration: none;
        padding-left: 25px;
-         transition: all 0.2s ease;
             display: block;
 	      color: #858585;
 }
