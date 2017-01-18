@@ -6,11 +6,11 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*
-    custom styles
+    elements
 */
 body {
     background-color: #f4f4f4;
-         font-family: Segoe UI, sans-serif;
+         font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /*
