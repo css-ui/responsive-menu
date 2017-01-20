@@ -2,6 +2,7 @@
 /*
     dark style sidebar menu
 */
+.sidebar .title { background-color: #353637; }
 .sidebar ul.menu { background-color: #222223; }
 .sidebar ul.menu li { color: #909295; }
 .sidebar ul.menu li a { color: #626466; }
