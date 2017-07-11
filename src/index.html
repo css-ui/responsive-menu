@@ -9,7 +9,11 @@
 
 	<!-- CSS styles -->
 	<link rel="stylesheet" href="css/style.css">
-	<!--<link rel="stylesheet" href="css/style.responsive.theme.css">-->
+	<link rel="stylesheet" href="css/simplebar.css">
+
+	<!-- css sidebar themes -->
+	<link rel="stylesheet" href="css/theme/style.responsive.light.css">
+	<!--<link rel="stylesheet" href="css/theme/style.responsive.dark.css">-->
 </head>
 <body>
 	<!-- navigation -->
@@ -31,7 +35,7 @@
 			<div class="responsive">
 
 				<!-- sidebar menu -->
-				<ul class="menu">
+				<ul class="menu" data-simplebar>
 
 					<!-- languages -->
 					<li>
@@ -42,6 +46,19 @@
 						<ul>
 						    	<li><a href="" class="current">Czech</a></li>
 							<li><a href="">English</a></li>
+						</ul>
+					</li>
+
+					<!-- dashboard -->
+					<li>
+						<span class="clear">
+							<span class="float left">Dashboard</span>
+							<span class="float right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+						</span>
+						<ul>
+						    	<li><a href="">Home</a></li>
+							<li><a href="">Settings</a></li>
+							<li><a href="">Notifications<span class="notifi">3</span></a></li>
 						</ul>
 					</li>
 
@@ -57,7 +74,7 @@
 						</ul>
 					</li>
 
-					<!-- mmmbers -->
+					<!-- members -->
 					<li>
 						<span class="clear">
 							<span class="float left">Members</span>
@@ -66,6 +83,19 @@
 						<ul>
 						    	<li><a href="">Registred</a></li>
 							<li><a href="">Banned</a></li>
+						</ul>
+					</li>
+
+					<!-- gallery -->
+					<li>
+						<span class="clear">
+							<span class="float left">Gallery</span>
+							<span class="float right"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+						</span>
+						<ul>
+							<li><a href="">Design</a></li>
+							<li><a href="">People</a></li>
+							<li><a href="">Cars</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -77,7 +107,8 @@
 	<div class="wrapping"></div>
 
 	<!-- javascript libraries and plugins  -->
-	<script src="js/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/simplebar.js"></script>
 	<script src="js/jquery.responsive.menu.js"></script>
 </body>
 </html>
