@@ -93,14 +93,14 @@
 
     .sidebar {
 	background-color: white;
-	        position: absolute;
+	        position: fixed;
 		  bottom: 0;
-                   width: 230px;
+                   width: 250px;
                      top: 0;
     }
 
     .wrapping {
-	margin-left: 230px;
+	margin-left: 250px;
     }
 
 }
