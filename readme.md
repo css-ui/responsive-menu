@@ -1,8 +1,5 @@
 ## Responsive menu
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/506fe74dc4f24ecba43c716a5a9bb753)](https://www.codacy.com/app/accgit/responsive-menu?utm_source=github.com&utm_medium=referral&utm_content=css-ui/responsive-menu&utm_campaign=badger)
-
-
 Simple responsive sidebar menu, based on CSS UI.
 
 ## Instruction
