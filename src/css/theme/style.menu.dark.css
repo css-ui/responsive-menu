@@ -5,8 +5,8 @@
 .nav .click { color: white; }
 .nav .click .menu { color: #6f788d; }
 .nav .click .menu:hover {
-    background-color: #b2cddd;
-               color: white;
+    background-color: #404757;
+               color: #e6e9ed;
 }
 
 .sidebar .title {
