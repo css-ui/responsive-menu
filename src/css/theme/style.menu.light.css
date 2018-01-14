@@ -3,10 +3,9 @@
     light theme sidebar menu
 */
 .nav .click { color: white; }
-.nav .click .menu { color: #cdcdcd; }
+.nav .click .menu { color: #acacac; }
 .nav .click .menu:hover {
-    background-color: #cdcdcd;
-               color: white;
+    background-color: #fff;
 }
 
 .sidebar .title {
