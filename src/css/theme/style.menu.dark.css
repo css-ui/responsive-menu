@@ -3,10 +3,13 @@
     light theme sidebar menu
 */
 .nav .click { color: white; }
-.nav .click .menu { color: #6f788d; }
+.nav .click .menu {
+    transition: all 0.1s ease-in-out;
+         color: #656c7c;
+}
+
 .nav .click .menu:hover {
-    background-color: #404757;
-               color: #e6e9ed;
+    background-color: #262a34;
 }
 
 .sidebar .title {
@@ -46,9 +49,13 @@
 }
 
 /*
-    simplebar
+    perfect scrollbar
 */
-.simplebar-scrollbar {
-    background: #596072;
-         width: 5px;
+.ps__thumb-y {
+    background-color: #656c7c;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y {
+    background-color: #656c7c;
 }

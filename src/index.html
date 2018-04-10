@@ -7,7 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSS UI - Responsive menu</title>
 
-	<!-- CSS styles -->
+	<!-- css styles -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.3.0/css/perfect-scrollbar.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext">
+	<link rel="stylesheet" href="https://css-ui.github.io/css/cssui.min.css">
+
+	<link rel="stylesheet" href="css/style.menu.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- css sidebar themes -->
@@ -20,7 +27,7 @@
 
 		<!-- click menu -->
 		<div class="click">
-			<i class="fa fa-bars menu" aria-hidden="true"></i>
+			<i class="fas fa-bars menu"></i>
 		</div>
 
 		<!-- sidebar -->
@@ -34,7 +41,7 @@
 			<div class="responsive">
 
 				<!-- sidebar menu -->
-				<ul class="menu" data-simplebar>
+				<ul class="menu scrollbar">
 
 					<!-- languages -->
 					<li>
@@ -91,8 +98,25 @@
 	<div class="content-wrapper"></div>
 
 	<!-- javascript libraries and plugins  -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/simplebar.js"></script>
-	<script src="js/jquery.responsive.menu.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.3.0/perfect-scrollbar.min.js"></script>
+
+	<!-- call jquery plugins etc. -->
+	<script>
+		$(function() {
+
+			// perfect scrollbar
+			const ps = new PerfectScrollbar('.scrollbar');
+
+			// responsive sidebar
+			$('.nav .click').on('click', function() {
+				var nav = '.nav .responsive';
+				$(nav).slideToggle('fast');
+				$(window).on('resize', function() {
+					$(window).width() >= 768 ? $(nav).show() : $(nav).hide();
+				});
+			});
+		});
+	</script>
 </body>
 </html>

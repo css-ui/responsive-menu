@@ -10,7 +10,7 @@
 
 .nav .click .menu {
     border-radius: 30px;
-        font-size: 14px;
+        font-size: 16px;
           padding: 7px 8px;
 }
 
@@ -38,7 +38,7 @@
 
 .sidebar ul.menu {
     list-style: none;
-        height: 300px;
+        height: 460px;
         margin: 0;
 }
 
@@ -72,10 +72,32 @@
             display: block;
 }
 
+/*
+    perfect scrollbar
+*/
+.scrollbar {
+    position: relative;
+    overflow: hidden;
+}
+
+.ps__thumb-y {
+    width: 4px;
+}
+
+.ps__rail-y {
+    margin-top: 10px;
+         width: auto;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y {
+    width: 4px;
+}
+
 @media only screen and (min-width: 768px) {
 
     .sidebar ul.menu {
-	height: 660px;
+	height: 800px;
     }
 
     .nav .click { visibility: hidden; }

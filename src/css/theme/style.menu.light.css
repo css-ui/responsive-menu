@@ -3,7 +3,11 @@
     light theme sidebar menu
 */
 .nav .click { color: white; }
-.nav .click .menu { color: #acacac; }
+.nav .click .menu {
+    transition: all 0.1s ease-in-out;
+         color: #acacac;
+}
+
 .nav .click .menu:hover {
     background-color: #fff;
 }
@@ -20,7 +24,7 @@
 .sidebar ul.menu li a:hover {
     background-color: #f4f4f4;
          font-weight: 600;
-               color: #e95656;
+               color: #636363;
 }
 
 .sidebar ul.menu li a.current {
@@ -45,9 +49,13 @@
 }
 
 /*
-    simplebar
+    perfect scrollbar
 */
-.simplebar-scrollbar {
-    background: #d3d3d3;
-         width: 5px;
+.ps__thumb-y {
+    background-color: #d3d3d3;
+}
+
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y {
+    background-color: #d3d3d3;
 }
