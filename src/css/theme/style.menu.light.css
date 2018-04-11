@@ -19,10 +19,7 @@
 }
 
 .sidebar ul.menu { background-color: white; }
-.sidebar ul.menu li {
-    font-weight: 600;
-          color: #a8a8a8;
-}
+.sidebar ul.menu li { color: #a8a8a8; }
 .sidebar ul.menu li a { color: #737373; }
 .sidebar ul.menu li a:hover {
     background-color: #f4f4f4;
