@@ -85,8 +85,8 @@
 }
 
 .ps__rail-y {
-    margin-top: 10px;
-         width: auto;
+    margin: 10px 0;
+     width: auto;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
