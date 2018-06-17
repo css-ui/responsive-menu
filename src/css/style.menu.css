@@ -44,6 +44,7 @@
 
 .sidebar ul.menu ul {
     list-style: none;
+     font-size: 100%;
         margin: 0;
 }
 
@@ -63,7 +64,6 @@
 
 .sidebar ul.menu li ul li {
     padding-top: 0;
-      font-size: 1em;
          margin: 0;
 }
 
