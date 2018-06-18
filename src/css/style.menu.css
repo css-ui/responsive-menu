@@ -59,7 +59,6 @@
     text-transform: uppercase;
       padding-left: 25px;
          font-size: 0.83em;
-           display: block;
 }
 
 .sidebar ul.menu li ul li {
@@ -71,10 +70,6 @@
     text-decoration: none;
        padding-left: 25px;
             display: block;
-}
-
-.sidebar ul.menu li ul li a i.fa {
-    padding-right: 10px;
 }
 
 /*
