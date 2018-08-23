@@ -5,17 +5,19 @@
 .nav .click { color: white; }
 .nav .click .menu {
     transition: all 0.1s ease-in-out;
-         color: #7f7f7f;
+         color: #4a5160;
 }
 
 .nav .click .menu:hover {
-    background-color: #fff;
+    background-color: #363c49;
+               color: #eaedf1;
 }
 
 .sidebar .title {
-    border-bottom: 1px #2e3543 solid;
-      font-weight: 600;
-            color: white;
+    background-color: #1d222c;
+       border-bottom: 1px #2e3543 solid;
+         font-weight: 600;
+               color: white;
 }
 
 .sidebar ul.menu { background-color: #1d222c; }
@@ -74,10 +76,10 @@
     perfect scrollbar
 */
 .ps__thumb-y {
-    background-color: #d3d3d3;
+    background-color: #515867;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
 .ps__rail-y:focus > .ps__thumb-y {
-    background-color: #d3d3d3;
+    background-color: #515867;
 }

@@ -5,11 +5,12 @@
 .nav .click { color: white; }
 .nav .click .menu {
     transition: all 0.1s ease-in-out;
-         color: #7f7f7f;
+         color: #bdbdbd;
 }
 
 .nav .click .menu:hover {
     background-color: #fff;
+               color: #7f7f7f;
 }
 
 .sidebar .title {
