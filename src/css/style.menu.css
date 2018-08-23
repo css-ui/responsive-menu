@@ -74,7 +74,21 @@
 
 .sidebar ul.menu li ul li ul {
     padding-left: 10px;
+         display: none;
           margin: 15px 10px;
+}
+
+.sidebar ul.menu li ul li.parent:before {
+     font-family: "FontAwesome";
+         content: "\f106";
+	  margin: 0 15px 0 0;
+	  height: 10px;
+	   width: 10px;
+	   float: right;
+}
+
+.sidebar ul.menu li ul li.parent.active:before {
+         content: "\f107";
 }
 
 /*

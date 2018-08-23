@@ -51,15 +51,16 @@
 					<li>
 						<span class="name">Dashboard</span>
 						<ul>
-						    	<li><a href="">Home</a></li>
-							<li><a href="" class="current">Settings</a>
-								<ul>
-									<li><a href="">Timezone</a></li>
-									<li><a href="">Permissions</a></li>
-									<li><a href="">Maintenance</a></li>
+						    	<li><a href="#">Home</a></li>
+							<li class="parent">
+								<a href="#">Settings</a>
+								<ul class="submenu">
+									<li><a href="#">Timezone</a></li>
+									<li><a href="#">Permissions</a></li>
+									<li><a href="#">Maintenance</a></li>
 								</ul>
 							</li>
-							<li><a href="">Notifications<span class="notifi">3</span></a></li>
+							<li><a href="#">Notifications<span class="notifi">3</span></a></li>
 						</ul>
 					</li>
 
@@ -67,8 +68,8 @@
 					<li>
 						<span class="name">Blog</span>
 						<ul>
-						    	<li><a href="">Add</a></li>
-							<li><a href="">List</a></li>
+						    	<li><a href="#">Add</a></li>
+							<li><a href="#">List</a></li>
 						</ul>
 					</li>
 
@@ -76,8 +77,8 @@
 					<li>
 						<span class="name">Members</span>
 						<ul>
-						    	<li><a href="">Registred</a></li>
-							<li><a href="">Banned</a></li>
+						    	<li><a href="#">Registred</a></li>
+							<li><a href="#">Banned</a></li>
 						</ul>
 					</li>
 
@@ -85,9 +86,9 @@
 					<li>
 						<span class="name">Gallery</span>
 						<ul>
-							<li><a href="">Design</a></li>
-							<li><a href="">People</a></li>
-							<li><a href="">Cars</a></li>
+							<li><a href="#">Design</a></li>
+							<li><a href="#">People</a></li>
+							<li><a href="#">Cars</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -114,6 +115,12 @@
 				$(window).on('resize', function() {
 					$(window).width() >= 768 ? $(nav).show() : $(nav).hide();
 				});
+			});
+
+			// click submenu
+			$('ul.menu a').on('click', function() {
+				$(this).parent('li.parent').toggleClass('active');
+				$(this).parent().find('ul.submenu').slideToggle('fast');
 			});
 		});
 	</script>
