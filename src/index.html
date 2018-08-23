@@ -47,6 +47,15 @@
 				<!-- sidebar menu -->
 				<ul class="menu scrollbar">
 
+				    	<!-- translator -->
+					<li>
+						<span class="name">Translate</span>
+						<ul>
+						    	<li><a href="#">Czech</a></li>
+							<li><a href="#" class="current">English</a></li>
+						</ul>
+					</li>
+
 					<!-- dashboard -->
 					<li>
 						<span class="name">Dashboard</span>
@@ -60,7 +69,22 @@
 									<li><a href="#">Maintenance</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Notifications<span class="notifi">3</span></a></li>
+							<li><a href="#">Notice<span class="notifi">3</span></a></li>
+						</ul>
+					</li>
+
+					<!-- comments -->
+					<li>
+						<span class="name">Coments</span>
+						<ul>
+						    	<li><a href="#">New</a></li>
+							<li class="parent">
+								<a href="#">Settings comments</a>
+								<ul class="submenu">
+									<li><a href="#">Disable</a></li>
+									<li><a href="#">Enable</a></li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 
@@ -70,23 +94,6 @@
 						<ul>
 						    	<li><a href="#" class="parent">Add</a></li>
 							<li><a href="#">List</a></li>
-						</ul>
-					</li>
-
-					<!-- members -->
-					<li>
-						<span class="name">Members</span>
-						<ul>
-						    	<li><a href="#">Home</a></li>
-							<li class="parent">
-								<a href="#">Settings</a>
-								<ul class="submenu">
-									<li><a href="#">Timezone</a></li>
-									<li><a href="#">Permissions</a></li>
-									<li><a href="#">Maintenance</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Notifications<span class="notifi">3</span></a></li>
 						</ul>
 					</li>
 				</ul>
@@ -128,8 +135,9 @@
 				$(this).parent().find('ul.submenu').slideToggle('fast');
 			});
 
+			// if use ajax
 //			$('ul.menu li a').on('click', function() {
-//				$('.submenu a.current').removeClass('current');
+//				$('ul.submenu a.current').removeClass('current');
 //				$(this).closest('a').addClass('current');
 //			});
 		});

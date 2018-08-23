@@ -32,25 +32,34 @@
 }
 
 .sidebar ul.menu li ul li a.current {
-    background-color: #a3dfff;
-               color: #0068a1;
+    background-color: #363c49;
 }
 
-.sidebar ul.menu li ul li.parent:before { color: #5a616e; }
-.sidebar ul.menu li ul li.parent.active:before { color: #eaedf1; }
+.sidebar ul.menu li ul li.parent a.current {
+    background-color: #363c49;
+}
+
+.sidebar ul.menu li ul li.parent .submenu a.current {
+    background-color: #363c49;
+}
+
+.sidebar ul.menu li ul li.parent:before { color: #b9b9b9; }
+.sidebar ul.menu li ul li.parent.active:before { color: #494949; }
 .sidebar ul.menu li ul li ul {
-     border-left: 1px solid #2e3543;
+     border-left: 1px solid #363c49;
 }
 
 /*
     notifications
 */
-.sidebar ul.menu li ul li a span.notifi {
-    color: #5a616e;
+.sidebar span.notifi {
+    background-color: #fd3f5b;
+               color: white;
 }
 
-.sidebar ul.menu li ul li a.current span.notifi {
-    color: #0068a1;
+.sidebar a.current span.notifi {
+    background-color: #fd3f5b;
+               color: white;
 }
 
 @media only screen and (min-width: 768px) {

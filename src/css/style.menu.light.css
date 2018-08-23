@@ -31,8 +31,7 @@
 }
 
 .sidebar ul.menu li ul li a.current {
-    background-color: #a3dfff;
-               color: #494949;
+    background-color: #f4f4f4;
 }
 
 .sidebar ul.menu li ul li.parent a.current {
@@ -40,10 +39,10 @@
 }
 
 .sidebar ul.menu li ul li.parent .submenu a.current {
-    background-color: #a3dfff;
+    background-color: #f4f4f4;
 }
 
-.sidebar ul.menu li ul li.parent:before { color: #d5d5d5; }
+.sidebar ul.menu li ul li.parent:before { color: #b9b9b9; }
 .sidebar ul.menu li ul li.parent.active:before { color: #494949; }
 .sidebar ul.menu li ul li ul {
      border-left: 1px solid #e9e9e9;
@@ -52,12 +51,14 @@
 /*
     notifications
 */
-.sidebar ul.menu li ul li a span.notifi {
-    color: #57ce6c;
+.sidebar span.notifi {
+    background-color: #fd3f5b;
+               color: white;
 }
 
-.sidebar ul.menu li ul li a.current span.notifi {
-    color: #494949;
+.sidebar a.current span.notifi {
+    background-color: white;
+               color: #494949;
 }
 
 @media only screen and (min-width: 768px) {
