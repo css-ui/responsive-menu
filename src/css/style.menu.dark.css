@@ -43,8 +43,8 @@
     background-color: #363c49;
 }
 
-.sidebar ul.menu li ul li.parent:before { color: #b9b9b9; }
-.sidebar ul.menu li ul li.parent.active:before { color: #494949; }
+.sidebar ul.menu li ul li.parent:before { color: #6b7382; }
+.sidebar ul.menu li ul li.parent.active:before { color: #b9b9b9; }
 .sidebar ul.menu li ul li ul {
      border-left: 1px solid #363c49;
 }
