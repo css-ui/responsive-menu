@@ -9,13 +9,15 @@
 }
 
 .nav .click .menu:hover {
-    background-color: #fff;
+    background-color: #f4f4f4;
                color: #7f7f7f;
 }
 
 .sidebar .title {
-    border-bottom: 1px #f4f4f4 solid;
-      font-weight: 600;
+    background-color: white;
+       border-bottom: 1px #f4f4f4 solid;
+         font-weight: 600;
+	       color: #494949;
 }
 
 .sidebar ul.menu { background-color: white; }
