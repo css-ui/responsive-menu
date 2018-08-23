@@ -53,10 +53,10 @@
 						<ul>
 						    	<li><a href="#">Home</a></li>
 							<li class="parent">
-								<a href="#">Settings</a>
+								<a href="#" class="current">Settings</a>
 								<ul class="submenu">
 									<li><a href="#">Timezone</a></li>
-									<li><a href="#">Permissions</a></li>
+									<li><a href="#" class="current">Permissions</a></li>
 									<li><a href="#">Maintenance</a></li>
 								</ul>
 							</li>
@@ -68,7 +68,7 @@
 					<li>
 						<span class="name">Blog</span>
 						<ul>
-						    	<li><a href="#">Add</a></li>
+						    	<li><a href="#" class="parent">Add</a></li>
 							<li><a href="#">List</a></li>
 						</ul>
 					</li>
@@ -77,18 +77,16 @@
 					<li>
 						<span class="name">Members</span>
 						<ul>
-						    	<li><a href="#">Registred</a></li>
-							<li><a href="#">Banned</a></li>
-						</ul>
-					</li>
-
-					<!-- gallery -->
-					<li>
-						<span class="name">Gallery</span>
-						<ul>
-							<li><a href="#">Design</a></li>
-							<li><a href="#">People</a></li>
-							<li><a href="#">Cars</a></li>
+						    	<li><a href="#">Home</a></li>
+							<li class="parent">
+								<a href="#">Settings</a>
+								<ul class="submenu">
+									<li><a href="#">Timezone</a></li>
+									<li><a href="#">Permissions</a></li>
+									<li><a href="#">Maintenance</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Notifications<span class="notifi">3</span></a></li>
 						</ul>
 					</li>
 				</ul>
@@ -118,10 +116,22 @@
 			});
 
 			// click submenu
-			$('ul.menu a').on('click', function() {
+			$('ul.menu li').each(function() {
+				if ($(this).children('li.parent a.current').length > 0 ) {
+					$(this).parent().find('ul.submenu').css('display', 'block');
+					$(this).parent().find('li.parent').addClass('active');
+				}
+			});
+
+			$('ul.menu li a').on('click', function() {
 				$(this).parent('li.parent').toggleClass('active');
 				$(this).parent().find('ul.submenu').slideToggle('fast');
 			});
+
+//			$('ul.menu li a').on('click', function() {
+//				$('.submenu a.current').removeClass('current');
+//				$(this).closest('a').addClass('current');
+//			});
 		});
 	</script>
 </body>

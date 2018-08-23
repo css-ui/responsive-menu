@@ -35,6 +35,14 @@
                color: #494949;
 }
 
+.sidebar ul.menu li ul li.parent a.current {
+    background-color: #f4f4f4;
+}
+
+.sidebar ul.menu li ul li.parent .submenu a.current {
+    background-color: #a3dfff;
+}
+
 .sidebar ul.menu li ul li.parent:before { color: #d5d5d5; }
 .sidebar ul.menu li ul li.parent.active:before { color: #494949; }
 .sidebar ul.menu li ul li ul {
