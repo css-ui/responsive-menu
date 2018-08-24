@@ -119,7 +119,7 @@
 	height: 800px;
     }
 
-    .nav .click { visibility: hidden; }
+    .nav .click { display: none; }
     .nav .responsive { display: block; }
 
     .sidebar {
