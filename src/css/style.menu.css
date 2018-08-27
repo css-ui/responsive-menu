@@ -116,10 +116,6 @@
 
 @media only screen and (min-width: 768px) {
 
-    .sidebar ul.menu {
-	height: 800px;
-    }
-
     .nav .click { display: none; }
     .nav .responsive { display: block; }
 
@@ -132,6 +128,14 @@
 
     .content-wrapper {
 	margin-left: 285px;
+    }
+
+}
+
+@media only screen and (min-height: 768px) {
+
+    .sidebar ul.menu {
+	height: 700px;
     }
 
 }
