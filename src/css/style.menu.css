@@ -14,14 +14,8 @@
           padding: 7px 8px;
 }
 
-.nav .responsive {
-    transition: opacity 0.2s ease-in-out;
-       opacity: 0;
-}
-
-.nav .expandable {
-    opacity: 1;
-}
+.nav .responsive { display: none; }
+.nav .expandable { display: block; }
 
 /*
     sidebar
@@ -125,8 +119,8 @@
 	height: 800px;
     }
 
-    .nav .click { opacity: 0; }
-    .nav .responsive { opacity: 1; }
+    .nav .click { display: none; }
+    .nav .responsive { display: block; }
 
     .sidebar {
 	position: fixed;
