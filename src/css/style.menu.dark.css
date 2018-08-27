@@ -2,13 +2,12 @@
 /*
     dark theme sidebar menu
 */
-.nav .click { color: white; }
-.nav .click .menu {
+.nav .click { 
     transition: all 0.1s ease-in-out;
          color: #4a5160;
 }
 
-.nav .click .menu:hover {
+.nav .click:hover {
     background-color: #363c49;
                color: #eaedf1;
 }

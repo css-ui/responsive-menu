@@ -3,15 +3,18 @@
     responsive menu
 */
 .nav .click {
-    cursor: pointer;
-    margin: 15px 20px 0 0;
-     float: right;
-}
-
-.nav .click .menu {
     border-radius: 30px;
         font-size: 14px;
-          padding: 7px 8px;
+          padding: 3px 8px;
+	   cursor: pointer;
+	   margin: 15px 20px 0 0;
+	    float: right;
+}
+
+.nav .click:before {
+    font-family: "FontAwesome";
+      font-size: 14px;
+        content: "\f0c9";
 }
 
 .nav .responsive { display: none; }
@@ -82,8 +85,6 @@
      font-family: "FontAwesome";
          content: "\f106";
 	  margin: 0 15px 0 0;
-	  height: 10px;
-	   width: 10px;
 	   float: right;
 }
 
