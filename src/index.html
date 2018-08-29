@@ -116,7 +116,7 @@
 				$('.nav .responsive').toggleClass('expandable');
 			});
 
-			// click submenu
+			// active expanded menu
 			$('ul.menu li').each(function() {
 				if ($(this).children('li.parent a.current').length > 0 ) {
 					$(this).parent().find('ul.submenu').toggle();
@@ -124,6 +124,7 @@
 				}
 			});
 
+			// dropdown menu
 			$('ul.menu li a').on('click', function() {
 				$(this).parent('li.parent').toggleClass('active');
 				$(this).parent().find('ul.submenu').slideToggle('fast');
