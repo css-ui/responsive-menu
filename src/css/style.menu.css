@@ -122,10 +122,10 @@
     .sidebar {
 	position: fixed;
 	  bottom: 0;
-	   width: 285px;
 	     top: 0;
     }
 
+    .sidebar,
     .content-wrapper {
 	margin-left: 285px;
     }
