@@ -20,8 +20,8 @@
 	<!--<link rel="stylesheet" href="css/style.menu.dark.css">-->
 	<style>
 		body {
-			background-color: #f2f2f2;
-			     font-family: 'Open Sans', sans-serif;
+			background: #f2f2f2;
+			font-family: 'Open Sans', sans-serif;
 		}
 	</style>
 </head>
@@ -67,7 +67,7 @@
 									<li><a href="#">Maintenance</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Notice<span class="notifi">3</span></a></li>
+							<li><a href="#">Notice<span class="notice">3</span></a></li>
 						</ul>
 					</li>
 
@@ -111,12 +111,12 @@
 			// perfect scrollbar
 			const ps = new PerfectScrollbar('.scrollbar');
 
-			// responsive sidebar
+			// responsive menu
 			$('.nav .click').on('click', function() {
 				$('.nav .responsive').toggleClass('expandable');
 			});
 
-			// active expanded menu
+			// responsive menu active
 			$('ul.menu li').each(function() {
 				if ($(this).children('li.parent a.current').length > 0 ) {
 					$(this).parent().find('ul.submenu').toggle();
@@ -124,7 +124,7 @@
 				}
 			});
 
-			// dropdown menu
+			// responsive menu click dropdown
 			$('ul.menu li a').on('click', function() {
 				$(this).parent('li.parent').toggleClass('active');
 				$(this).parent().find('ul.submenu').slideToggle('fast');
