@@ -1,5 +1,5 @@
 
-/* Responsive menu
+/* responsive menu
    ========================================================================== */
 .nav .click {
     border-radius: 30px;
@@ -24,7 +24,7 @@
     display: block;
 }
 
-/* Sidebar
+/* sidebar
    ========================================================================== */
 .sidebar .title {
     font-size: 1.188em;
@@ -32,7 +32,7 @@
     padding: 15px 20px 0 25px;
 }
 
-/* Notification
+/* notice
    ========================================================================== */
 .sidebar span.notice {
     border-radius: 30px;
@@ -94,7 +94,7 @@
     content: "\f107";
 }
 
-/* Perfect scrollbar
+/* perfect scrollbar
    ========================================================================== */
 .scrollbar {
     overflow: hidden;

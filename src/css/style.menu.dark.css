@@ -1,5 +1,5 @@
 
-/* Dark color for responsive menu
+/* dark color for responsive menu
    ========================================================================== */
 .nav .click {
     color: #4a5160;
@@ -61,7 +61,7 @@
     border-left: 1px solid #363c49;
 }
 
-/* Notification
+/* notice
    ========================================================================== */
 .sidebar span.notice {
     background: #fd3f5b;
@@ -81,7 +81,7 @@
 
 }
 
-/* Perfect scrollbar
+/* perfect scrollbar
    ========================================================================== */
 .ps__thumb-y {
     background: #515867;
