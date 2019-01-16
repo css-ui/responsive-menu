@@ -5,7 +5,8 @@ Simple responsive sidebar menu.
 ## Requirements
 
 - composer
-- https://github.com/fxpio/composer-asset-plugin
+- NPM/Bower Dependency Manager for Composer
+- [NPM/Bower Dependency Manager for Composer](https://github.com/fxpio/composer-asset-plugin)
 
 ## Installation
 
