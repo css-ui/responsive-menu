@@ -37,83 +37,24 @@ CSS light or dark theme for menu. Choose one.
 <link rel="stylesheet" href="path/to/style.menu.dark.css">
 ```
 
-Navigation wrapper.
+Simple menu pattern.
 
 ```html
-<div class="nav"></div>
-```
-
-Click show/hide menu for responsive display.
-
-```html
+<!-- nav wrapper -->
 <div class="nav">
-	<div class="click"></div>
-</div>
-```
 
-For title and responsive menu add the sidebar.
-
-```html
-<div class="nav">
-	<div class="click"></div>
-	<div class="sidebar"></div>
-</div>
-```
-
-Title in sidebar.
-
-```html
-<div class="nav">
+	<!-- click show/hide menu -->
 	<div class="click"></div>
 	<div class="sidebar">
+
+		<!-- totle for sidebar -->
 		<div class="title">
-			<p>Title in sidebar</p>
-		</div>
-	</div>
-</div>
-```
-
-Title and add responsive wrapper.
-
-```html
-<div class="nav">
-	<div class="click"></div>
-	<div class="sidebar">
-		<div class="title">
-			<p>Title in sidebar</p>
-		</div>
-		<div class="responsive"></div>
-	</div>
-</div>
-```
-
-Title, responsive wrapper add menu.
-
-```html
-<div class="nav">
-	<div class="click"></div>
-	<div class="sidebar">
-		<div class="title">
-			<p>Title in sidebar</p>
-		</div>
-		<div class="responsive">
-			<ul class="menu scrollbar"></ul>
-		</div>
-	</div>
-</div>
-```
-
-Simple menu.
-
-```html
-<div class="nav">
-	<div class="click"></div>
-	<div class="sidebar">
-		<div class="title">
-			<p>Title in sidebar</p>
+			<p>Title for sidebar</p>
 		</div>
 		<div class="responsive">
 			<ul class="menu scrollbar">
+
+				<!-- simple menu -->
 				<li>
 					<span class="name">Simple menu</span>
 					<ul>
@@ -125,19 +66,31 @@ Simple menu.
 		</div>
 	</div>
 </div>
+
+<!-- content wrapper -->
+<div class="content-wrapper">
+	<h1>Content</h1>
+</div>
 ```
 
-Dropdown menu.
+Dropdown menu pattern.
 
 ```html
+<!-- nav wrapper -->
 <div class="nav">
+
+	<!-- click show/hide menu -->
 	<div class="click"></div>
 	<div class="sidebar">
+
+		<!-- totle for sidebar -->
 		<div class="title">
-			<p>Title in sidebar</p>
+			<p>Title for sidebar</p>
 		</div>
 		<div class="responsive">
 			<ul class="menu scrollbar">
+
+				<!-- dropdown menu -->
 				<li>
 					<span class="name">Dropdown menu</span>
 					<ul>
@@ -156,4 +109,11 @@ Dropdown menu.
 		</div>
 	</div>
 </div>
+
+<!-- content wrapper -->
+<div class="content-wrapper">
+	<h1>Content</h1>
+</div>
 ```
+
+Enjoy the menu.
