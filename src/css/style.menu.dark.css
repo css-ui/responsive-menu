@@ -84,10 +84,17 @@
 /* perfect scrollbar
    ========================================================================== */
 .ps__thumb-y {
-    background: #515867;
+    background: #586173;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
-.ps__rail-y:focus > .ps__thumb-y {
-    background: #515867;
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+    background: #586173;
+}
+
+.ps .ps__rail-y:hover,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-y.ps--clicking {
+    background: none;
 }

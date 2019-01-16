@@ -97,22 +97,17 @@
 /* perfect scrollbar
    ========================================================================== */
 .scrollbar {
-    overflow: hidden;
     position: relative;
 }
 
 .ps__thumb-y {
-    width: 4px;
-}
-
-.ps__rail-y {
-    margin: 10px 0;
-    width: auto;
+    width: 5px;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
-.ps__rail-y:focus > .ps__thumb-y {
-    width: 4px;
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+    width: 5px;
 }
 
 @media only screen and (min-width: 768px) {

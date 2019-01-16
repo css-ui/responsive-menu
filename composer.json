@@ -1,0 +1,44 @@
+{
+	"require": {
+		"npm-asset/css-ui-simple": "^2.4",
+		"npm-asset/open-sans-fontface": "^1.4",
+		"bower-asset/jquery": "^3.3",
+		"npm-asset/font-awesome": "^4.7",
+		"npm-asset/perfect-scrollbar": "^1.4"
+	},
+	"config": {
+		"fxp-asset": {
+			"ignore-files": {
+				"npm-asset/css-ui-simple": [
+					"src/css/"
+				],
+				"npm-asset/open-sans-fontface": [
+					"sass",
+					"*.html",
+					"*.less",
+					"*.scss"
+				],
+				"bower-asset/jquery": [
+					".*",
+					"src",
+					"external"
+				],
+				"npm-asset/font-awesome": [
+					".*",
+					".txt",
+					"less",
+					"scss"
+				],
+				"npm-asset/perfect-scrollbar": [
+					".*",
+					"src",
+					"types"
+				]
+			},
+			"installer-paths": {
+				"npm-asset-library": "www/assets",
+				"bower-asset-library": "www/assets"
+			}
+		}
+	}
+}
