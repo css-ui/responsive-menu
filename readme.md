@@ -47,7 +47,7 @@ Simple menu pattern.
 	<div class="click"></div>
 	<div class="sidebar">
 
-		<!-- totle for sidebar -->
+		<!-- title for sidebar -->
 		<div class="title">
 			<p>Title for sidebar</p>
 		</div>
@@ -83,7 +83,7 @@ Dropdown menu pattern.
 	<div class="click"></div>
 	<div class="sidebar">
 
-		<!-- totle for sidebar -->
+		<!-- title for sidebar -->
 		<div class="title">
 			<p>Title for sidebar</p>
 		</div>
