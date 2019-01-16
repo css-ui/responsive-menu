@@ -1,0 +1,20 @@
+{
+	"name": "css-ui-responsive-menu",
+	"version": "3.0.4",
+	"description": "Simple responsive sidebar menu.",
+	"main": "project",
+	"repository": {
+		"type": "git",
+		"url": "git+https://accgit@github.com/css-ui/responsive-menu.git"
+	},
+	"keywords": [
+		"menu",
+		"sidebar",
+		"nav"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/css-ui/responsive-menu/issues"
+	},
+	"homepage": "https://github.com/css-ui/responsive-menu#readme"
+}

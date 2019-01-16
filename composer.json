@@ -1,5 +1,6 @@
 {
 	"require": {
+		"npm-asset/normalize.css": "^8.0",
 		"npm-asset/css-ui-simple": "^2.4",
 		"npm-asset/open-sans-fontface": "^1.4",
 		"bower-asset/jquery": "^3.3",
@@ -9,30 +10,37 @@
 	"config": {
 		"fxp-asset": {
 			"ignore-files": {
+				"npm-asset/normalize.css": [
+					"*.md"
+				],
 				"npm-asset/css-ui-simple": [
-					"src/css/"
+					"src/css/",
+					"*.md"
 				],
 				"npm-asset/open-sans-fontface": [
 					"sass",
 					"*.html",
 					"*.less",
-					"*.scss"
+					"*.scss",
+					"*.md"
 				],
 				"bower-asset/jquery": [
-					".*",
 					"src",
-					"external"
+					"external",
+					"*.txt",
+					"*.md"
 				],
 				"npm-asset/font-awesome": [
 					".*",
-					".txt",
+					"*.txt",
 					"less",
-					"scss"
+					"scss",
+					"*.md"
 				],
 				"npm-asset/perfect-scrollbar": [
-					".*",
 					"src",
-					"types"
+					"types",
+					"*.md"
 				]
 			},
 			"installer-paths": {
