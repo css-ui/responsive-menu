@@ -13,6 +13,11 @@ Simple responsive sidebar menu.
 composer install
 ```
 
+## Demo
+
+- https://css-ui.github.io/responsive.menu/light
+- https://css-ui.github.io/responsive.menu/dark
+
 ## Quick start
 
 CSS dependencies.

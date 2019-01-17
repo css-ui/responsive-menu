@@ -1,6 +1,5 @@
 {
 	"require": {
-		"npm-asset/normalize.css": "^8.0",
 		"npm-asset/css-ui-simple": "^2.4",
 		"npm-asset/open-sans-fontface": "^1.4",
 		"bower-asset/jquery": "^3.3",
@@ -14,7 +13,7 @@
 					"*.md"
 				],
 				"npm-asset/css-ui-simple": [
-					"src/css/",
+					"css/src/",
 					"*.md"
 				],
 				"npm-asset/open-sans-fontface": [
