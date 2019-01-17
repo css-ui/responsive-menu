@@ -116,6 +116,12 @@ Dropdown menu pattern.
 </div>
 ```
 
+## Notice info
+
+```html
+<li><a href="#">Notice<span class="notice">3</span></a></li>
+```
+
 ## javascript libraries and plugins
 
 ```html
