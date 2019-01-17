@@ -23,7 +23,7 @@
 					"*.scss",
 					"*.md"
 				],
-				"bower-asset/jquery": [
+				"npm-asset/jquery": [
 					"src",
 					"external",
 					"*.txt",
