@@ -49,7 +49,7 @@ Set font and background color.
 </style>
 ```
 
-Simple menu pattern.
+Simple menu html.
 
 ```html
 <!-- nav wrapper -->
