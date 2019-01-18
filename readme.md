@@ -37,7 +37,7 @@ CSS light or dark theme for menu. Choose one.
 <link rel="stylesheet" href="path/to/style.menu.dark.css">
 ```
 
-Set font and background color
+Set font and background color.
 
 ```html
 <style>
