@@ -2,15 +2,10 @@
 
 Simple responsive sidebar menu.
 
-## Requirements
-
-- composer
-- [NPM/Bower Dependency Manager for Composer](https://github.com/fxpio/composer-asset-plugin)
-
 ## Installation
 
 ```
-composer install
+npm install --save css-ui-responsive-menu
 ```
 
 ## Demo
@@ -40,6 +35,17 @@ CSS light or dark theme for menu. Choose one.
 ```html
 <link rel="stylesheet" href="path/to/style.menu.light.css">
 <link rel="stylesheet" href="path/to/style.menu.dark.css">
+```
+
+Set font and background color
+
+```html
+<style>
+	body {
+		background: #f2f2f2;
+		font-family: 'Open Sans', sans-serif;
+	}
+</style>
 ```
 
 Simple menu pattern.
@@ -121,13 +127,13 @@ Dropdown menu pattern.
 </div>
 ```
 
-## Notice info
+Notice info.
 
 ```html
 <li><a href="#">Notice<span class="notice">3</span></a></li>
 ```
 
-## javascript libraries and plugins
+javascript libraries and plugins.
 
 ```html
 <script src="path/to/jquery.js"></script>
