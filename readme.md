@@ -24,6 +24,7 @@ CSS dependencies.
 <link rel="stylesheet" href="path/to/open-sans.css">
 <link rel="stylesheet" href="path/to/cssui.css">
 ```
+
 CSS menu style.
 
 ```html
