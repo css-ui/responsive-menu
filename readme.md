@@ -85,7 +85,7 @@ Simple menu html.
 </div>
 ```
 
-Dropdown menu pattern.
+Dropdown menu html.
 
 ```html
 <!-- nav wrapper -->
