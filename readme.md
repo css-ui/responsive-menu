@@ -18,6 +18,7 @@ npm install --save css-ui-responsive-menu
 CSS dependencies.
 
 ```html
+<link rel="stylesheet" href="path/to/normalize.css">
 <link rel="stylesheet" href="path/to/perfect-scrollbar.css">
 <link rel="stylesheet" href="path/to/font-awesome.css">
 <link rel="stylesheet" href="path/to/open-sans.css">
