@@ -1,4 +1,4 @@
-## Responsive menu
+## CSS UI - Responsive menu
 
 Simple responsive sidebar menu.
 
@@ -25,28 +25,23 @@ CSS dependencies.
 <link rel="stylesheet" href="path/to/cssui.css">
 ```
 
-CSS menu style.
+CSS menu.
 
 ```html
 <link rel="stylesheet" href="path/to/style.menu.css">
 ```
 
-CSS light or dark theme for menu. Choose one.
+CSS light or dark theme. Choose one.
 
 ```html
 <link rel="stylesheet" href="path/to/style.menu.light.css">
 <link rel="stylesheet" href="path/to/style.menu.dark.css">
 ```
 
-Set font and background color.
+Use Open Sans fotns.
 
-```html
-<style>
-	body {
-		background: #f2f2f2;
-		font-family: 'Open Sans', sans-serif;
-	}
-</style>
+```css
+font-family: 'Open Sans', sans-serif;
 ```
 
 Simple menu html.
