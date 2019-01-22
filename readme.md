@@ -162,4 +162,4 @@ javascript libraries and plugins.
 </script>
 ```
 
-Enjoy the menu.
+Enjoy responsive menu.
