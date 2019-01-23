@@ -87,7 +87,7 @@
     content: "\f106";
     float: right;
     font-family: "FontAwesome";
-    margin: 0 15px 0 0;
+    margin: 0 3px 0 0;
 }
 
 .sidebar ul.menu li ul li.parent a.employ.active:before {
@@ -102,6 +102,10 @@
 
 .ps__thumb-y {
     width: 5px;
+}
+
+.ps__rail-y {
+    margin: 10px 0;
 }
 
 .ps__rail-y:hover > .ps__thumb-y,
