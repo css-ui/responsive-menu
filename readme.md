@@ -157,6 +157,7 @@ javascript libraries and plugins.
 		$('ul.menu li a').on('click', function() {
 			$(this).parent('li.parent').find('a.employ').toggleClass('active');
 			$(this).parent().find('ul.submenu').slideToggle('fast');
+			$(this).parent().find('ul.submenu ul.submenu').toggle();
 		});
 	});
 </script>
