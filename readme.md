@@ -144,6 +144,11 @@ javascript libraries and plugins.
 <script src="path/to/jquery.js"></script>
 <script src="path/to/perfect-scrollbar.js"></script>
 <script src="path/to/responsive.menu.js"></script>
+<script>
+	$(function() {
+		var ps = new PerfectScrollbar('.scrollbar');
+	});
+</script>
 ```
 
 Enjoy responsive menu.

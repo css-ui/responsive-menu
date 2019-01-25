@@ -4,9 +4,6 @@
  */
 (function($) {
 
-	// perfect scrollbar
-	new PerfectScrollbar('.scrollbar');
-
 	// click show/hide menu
 	$('.nav .click').on('click', function() {
 		$('.nav .responsive').toggleClass('expandable');

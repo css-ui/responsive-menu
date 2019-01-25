@@ -1,6 +1,6 @@
 {
 	"name": "css-ui-responsive-menu",
-	"version": "3.1.4",
+	"version": "3.1.5",
 	"description": "Simple responsive menu.",
 	"main": "css/style.menu.css",
 	"repository": {
