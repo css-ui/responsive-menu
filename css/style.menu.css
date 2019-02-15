@@ -84,14 +84,29 @@
 }
 
 .sidebar ul.menu li ul li.parent a.employ:before {
-    content: "\f106";
     float: right;
     font-family: "FontAwesome";
     margin: 0 3px 0 0;
 }
 
-.sidebar ul.menu li ul li.parent a.employ.active:before {
+.sidebar ul.menu li ul li.parent a.employ.up:before {
+    content: "\f106";
+}
+
+.sidebar ul.menu li ul li.parent a.employ.down:before {
     content: "\f107";
+}
+
+.sidebar ul.menu li ul li.parent a.employ.transition:before {
+    transition: .3s all;
+}
+
+.sidebar ul.menu li ul li.parent a.employ.rotate:before {
+    transform: rotate(-180deg);
+}
+
+.sidebar ul.menu li ul li.parent a.employ.rotate.active:before {
+    transform: rotate(180deg);
 }
 
 /* perfect scrollbar
