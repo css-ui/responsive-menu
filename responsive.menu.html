@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS UI - Simple responsive menu</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/open-sans-fontface/open-sans.css">
+    <link rel="stylesheet" href="node_modules/css-ui-simple/css/cssui.css">
+
+    <!-- css menu -->
+    <link rel="stylesheet" href="css/style.menu.css">
+    <link rel="stylesheet" href="css/style.menu.light.css">
+    <style>
+        body {
+            background: #f2f2f2;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.438em;
+        }
+    </style>
+</head>
+<body>
+<!-- nav wrapper -->
+<div class="nav">
+
+    <!-- click show/hide menu -->
+    <div class="click"></div>
+
+    <!-- sidebar -->
+    <div class="sidebar">
+
+        <!-- title for sidebar -->
+        <div class="title">
+            <p>Responsive menu</p>
+        </div>
+        <div class="responsive">
+            <ul class="menu scrollbar">
+
+                <!-- simple menu -->
+                <li>
+                    <span class="name">Translate</span>
+                    <ul>
+                        <li><a href="#">Czech</a></li>
+                        <li><a href="#" class="current">English</a></li>
+                    </ul>
+                </li>
+
+                <!-- dropdown menu -->
+                <li>
+                    <span class="name">Dashboard</span>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li class="parent">
+                            <a href="#" class="employ current">Settings</a>
+                            <ul class="submenu">
+                                <li><a href="#">Timezone</a></li>
+                                <li><a href="#">Permissions</a></li>
+                                <li><a href="#" class="employ current">Maintenance</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">On</a></li>
+                                        <li><a href="#" class="current">Off</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- notice info -->
+                        <li><a href="#">Notice<span class="notice">3</span></a></li>
+                    </ul>
+                </li>
+
+                <!-- dropdown menu -->
+                <li>
+                    <span class="name">Coments</span>
+                    <ul>
+                        <li><a href="#">New</a></li>
+                        <li class="parent">
+                            <a href="#" class="employ">Settings comments</a>
+                            <ul class="submenu">
+                                <li><a href="#">Disable</a></li>
+                                <li><a href="#">Enable</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- simple menu -->
+                <li>
+                    <span class="name">Blog</span>
+                    <ul>
+                        <li><a href="#">Add</a></li>
+                        <li><a href="#">List</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- content wrapper -->
+<div class="content-wrapper"></div>
+
+<!-- javascript libraries and plugins  -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.js"></script>
+<script src="js/responsive.menu.js"></script>
+<script>
+    $(function() {
+        new PerfectScrollbar('.scrollbar');
+    });
+</script>
+</body>
+</html>

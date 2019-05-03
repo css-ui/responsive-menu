@@ -52,6 +52,7 @@
     font-size: 100%;
     list-style: none;
     margin: 0;
+    overflow: hidden;
 }
 
 .sidebar ul.menu li {
@@ -79,7 +80,7 @@
 
 .sidebar ul.menu li ul li ul {
     display: none;
-    margin: 15px 10px;
+    margin: 15px 0 15px 8px;
     padding-left: 10px;
 }
 
@@ -102,11 +103,11 @@
 }
 
 .sidebar ul.menu li ul li.parent a.employ.rotate:before {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
 }
 
-.sidebar ul.menu li ul li.parent a.employ.rotate.active:before {
-    transform: rotate(180deg);
+.sidebar ul.menu li ul li.parent a.employ.rotate-revert:before {
+    transform: rotate(-180deg);
 }
 
 /* perfect scrollbar
